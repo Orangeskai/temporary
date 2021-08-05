@@ -5,7 +5,7 @@ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync 
 
 # build rom
 . build/envsetup.sh
-lunch legion_lavender-userdebug
+lunch legion_lavender-user
 export TZ=Asia/Dhaka #put before last build command's
 make legion
 
